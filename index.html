@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bumsoo Park's portfolio website showcasing web development projects and skills.">
+    <title>Bumsoo Park | Portfolio</title>
+    <link rel="icon" type="image/png" href="images/logo_bg.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="hero">
+        <input type="checkbox" id="wish-toggle" class="wish-toggle">
+        <header>
+            <button id="hamburger" type="button" aria-label="Toggle navigation menu" aria-controls="mobileMenu" aria-expanded="false">
+                <span class="hamburger-icon" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+
+            <nav id="desktopMenu">
+                <a href="#hero" class="nav-logo">
+                    <img src="images/logo_bg.png" alt="Soori logo">
+                </a>
+                <ul id="menu">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+           
+            <nav id="mobileMenu">
+                <ul id="mobile-menu">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header> 
+
+        <main class="hero-content">
+            <p class="hero-greeting">HELLO, I'M</p>
+            <h1>Bumsoo <span>Park.</span></h1>
+
+            <p id="value-prop">
+                Turning <label for="wish-toggle" class="wish-word">wishes</label>
+                into working websites.
+            </p>
+
+            <p class="hero-description">
+                Learning, creating, and bringing ideas to life
+                through web development.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    VIEW MY WORK
+                </a>
+
+                <a href="#contact" class="btn btn-secondary">
+                    LET'S CONNECT
+                </a>
+            </div>
+
+            <p class="hero-footer">
+                A little creativity. A lot of curiosity.
+            </p>
+
+        </main> 
+
+        <!-- Shooting stars -->
+        <div class="wish-sky" aria-hidden="true">
+            <span class="shooting-star"><span class="star-head">★</span></span>
+            <span class="shooting-star"><span class="star-head">★</span></span>
+            <span class="shooting-star"><span class="star-head">★</span></span>
+            <span class="shooting-star"><span class="star-head">★</span></span>
+            <span class="shooting-star"><span class="star-head">★</span></span>
+            <span class="shooting-star"><span class="star-head">★</span></span>
+            <span class="shooting-star"><span class="star-head">★</span></span>
+            <span class="shooting-star"><span class="star-head">★</span></span>
+            
+        </div>
+
+        <!-- Magic message -->
+        <div class="wish-message" role="status">
+
+            <label for="wish-toggle" class="wish-close" aria-label="Close message">×</label>
+
+            <span class="wish-sparkle">✨</span>
+            <h3>Make a Wish!</h3>
+            <p>Your wish is on its way!</p>
+            <strong>SOORISOORIYAP! ✨</strong>
+            <small>A little Korean magic spell to make wishes come true.</small>
+
+        </div>
+    </section>
+
+    <section id="about">
+    <div class="about-container">
+
+        <!-- Left: Personal photo -->
+        <div class="about-image">
+            <img src="images/yoga.jpg"
+                 alt="Bumsoo practicing yoga by the sea">
+        </div>
+
+        <!-- Right: About content -->
+        <div class="about-content">
+
+            <p class="about-label">01 / ABOUT ME</p>
+
+            <h2>A Little About Me<span>.</span></h2>
+
+            <p>
+                Hi, I'm Bumsoo, but you can call me Soori!
+                It's a name that comes with a little wish
+                for things to go well. I believe a little
+                curiosity, a positive attitude, and a
+                willingness to try can take us a long way.
+            </p>
+
+            <p>
+                This is a space to share what I'm learning
+                and the projects I'm creating along the way.
+            </p>
+
+        </div>
+
+    </div>
+    </section>
+
+    <section id="skills">
+        <p class="skills-label">02 / WHAT I DO</p>
+        <h2>Skills & Tools</h2>
+        <p class="section-intro">
+            A growing toolkit for creating and understanding digital experiences.
+        </p>
+
+        <div class="skills-cards">
+            <div class="skill-card">
+                <img src="images/WEB.png" alt="Web Development icon" class="skill-icon">
+                <h3>Web Development</h3>
+                <p>HTML5 · CSS · JavaScript</p>
+                <p>Building and styling responsive websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="images/DB.png" alt="Database icon" class="skill-icon">
+                <h3>Database</h3>
+                <p>SQL · SQLite</p>
+                <p>Learning to organize and query data.</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="images/NET.png" alt="Networking icon" class ="skill-icon">
+                <h3>Networking</h3>
+                <p>Networking Fundamentals</p>
+                <p>Exploring network connectivity and security.</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="images/OS.png" alt="Operating Systems icon" class ="skill-icon">
+                <h3>Operating Systems</h3>
+                <p>Windows System Management</p>
+                <P>Learning system configuration and administration.</P>
+            </div>
+
+            <div class="skill-card">
+                <img src="images/PRO.png" alt="Programming icon" class ="skill-icon">
+                <h3>Programming</h3>
+                <p>Python</p>
+                <p>Practicing logic, functions, and problem-solving.</p>
+            </div>
+            
+            <div class="skill-card">
+                <img src="images/GIT.png" alt="Git and GitHub icon" class="skill-icon">
+                <h3>Version Control</h3>
+                <p>Git · GitHub</p>
+                <p>Tracking code changes and managing project files.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+
+        <p class="projects-label">03 / SELECTED WORK</p>
+        <h2>Projects</h2>
+        <p class="section-intro">
+            From ideas to working projects, one step at a time.
+        </p>
+
+        <div class="projects-cards">
+
+            <!-- Portfolio Website -->
+            <article class="project-card">
+                <div class="project-visual visual-web">
+                    <span aria-hidden="true">&lt;/&gt;</span>
+                </div>
+
+                <div class="project-content">
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        Designed and built a responsive personal
+                        website using Flexbox, CSS Grid, and media queries.
+                    </p>
+                    <p class="project-tech">
+                        HTML · CSS · FLEXBOX · CSS GRID · FIGMA
+                    </p>
+                </div>
+            </article>
+
+            <!-- Python -->
+            <article class="project-card">
+                <div class="project-visual visual-python">
+                    <span aria-hidden="true">{ }</span>
+                </div>
+
+                <div class="project-content">
+                    <h3>Python Practice</h3>
+                    <p>
+                        Built practical programs including calculators,
+                        a Sorting Hat game, and a random matrix generator.
+                    </p>
+                    <p class="project-tech">
+                        PYTHON · FUNCTIONS · LOOPS · LISTS
+                    </p>
+                </div>
+            </article>
+
+            <!-- Database -->
+            <article class="project-card">
+                <div class="project-visual visual-database">
+                    <span aria-hidden="true">DB</span>
+                </div>
+
+                <div class="project-content">
+                    <h3>Database Design</h3>
+                    <p>
+                        Created relational database schemas, wrote SQL
+                        queries, performed CRUD operations, and designed ERDs.
+                    </p>
+                    <p class="project-tech">
+                        SQLITE · MARIADB · MS ACCESS · SQL
+                    </p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="contact">
+
+        <p class="contact-label">04 / GET IN TOUCH</p>
+
+        <h2>Let's Connect<span>.</span></h2>
+
+        <p class="contact-description">
+            Have a question, an idea, or just want to say hello?
+            I'd love to hear from you.
+        </p>
+
+        <a href="mailto:soorisooriyap@gmail.com" class="contact-button">
+            SAY HELLO
+        </a>
+
+        <p class="contact-footer">
+            Made with curiosity and a little creativity.
+        </p>
+
+    </section>
+
+<script src="main.js"></script>    
+</body>
+</html>
